@@ -1,0 +1,23 @@
+# --- Tauri/Rust Specific (CRITICAL) ---
+src-tauri/target/
+src-tauri/binaries/
+
+# --- Node/Frontend ---
+node_modules/
+dist/
+.svelte-kit/
+.next/
+out/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# --- Environment & OS ---
+.env
+.env.*
+.DS_Store
+Thumbs.db
