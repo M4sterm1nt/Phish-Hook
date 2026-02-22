@@ -1,13 +1,22 @@
-# 🪝 Phish Hook
-A desktop cybersecurity suite built with Tauri and Python to analyze `.eml` files for phishing markers.
+# 🪝 Phish Hook: Email Phishing Analysis Tool
 
-### Features
-- Deep header analysis (From/Reply-To/Return-Path)
-- URL obfuscation detection
-- Keyword threat scoring
-- Modern Dark Mode UI
+Phish Hook is a lightweight desktop security suite designed to dissect `.eml` files and expose common phishing tactics before they hit your team.
 
-### Development
-1. Place your `backend-x86_64-pc-windows-msvc.exe` in `src-tauri/binaries/`
-2. Run `npm install`
-3. Run `npm run tauri dev`
+## 🚀 Key Features
+- **Header Fingerprinting:** Cross-references `From`, `Reply-To`, and `Return-Path`.
+- **Domain Verification:** Checks for DNS resolution and sender spoofing.
+- **Heuristic Engine:** Flags suspicious keywords like "reset", "urgent", and "verify".
+- **Built for Speed:** Rust-based desktop shell with a Python analysis sidecar.
+
+## 🛠️ Built With
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Desktop Framework:** [Tauri v2](https://v2.tauri.app/) (Rust)
+- **Analysis Engine:** Python 3.12 (compiled as a Sidecar)
+
+## 📦 Installation
+1. Go to the [Releases](https://github.com/M4sterm1nt/Phish-Hook/releases) page.
+2. Download `phish-hook_0.1.0_x64-setup.exe`.
+3. Run the installer (Click 'More Info' -> 'Run Anyway' if prompted).
+
+---
+*Disclaimer: This tool is for educational and security-awareness purposes.*
