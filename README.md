@@ -1,7 +1,13 @@
-# Tauri + Vanilla
+# 🪝 Phish Hook
+A desktop cybersecurity suite built with Tauri and Python to analyze `.eml` files for phishing markers.
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+### Features
+- Deep header analysis (From/Reply-To/Return-Path)
+- URL obfuscation detection
+- Keyword threat scoring
+- Modern Dark Mode UI
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### Development
+1. Place your `backend-x86_64-pc-windows-msvc.exe` in `src-tauri/binaries/`
+2. Run `npm install`
+3. Run `npm run tauri dev`
