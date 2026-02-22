@@ -17,6 +17,12 @@ Phish Hook is a lightweight desktop security suite designed to dissect `.eml` fi
 1. Go to the [Releases](https://github.com/M4sterm1nt/Phish-Hook/releases) page.
 2. Download `phish-hook_0.1.0_x64-setup.exe`.
 3. Run the installer (Click 'More Info' -> 'Run Anyway' if prompted).
+4. ## 🚀 Installation & First Run (IMPORTANT)
+As this is an open-source beta, Windows security requires a manual step to allow the analysis engine to run:
+   . **Enable Engine:** - Navigate to your installation folder: `C:\Users\%USERNAME%\AppData\Local\phish-hook`
+   - Locate `backend.exe`.
+   - **Double-click it** and select **"Allow Access"** if a Firewall prompt appears.
+  . **Launch Phish Hook:** Open the app from your Start Menu and start analyzing!
 
 ---
 *Disclaimer: This tool is for educational and security-awareness purposes.*
