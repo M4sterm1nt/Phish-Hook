@@ -1,0 +1,16 @@
+# Tauri/Rust
+src-tauri/target/
+src-tauri/gen/
+
+# Node/Frontend
+node_modules/
+dist/
+
+# Python/Bytecode
+__pycache__/
+*.pyc
+venv/
+
+# OS Files
+.DS_Store
+Thumbs.db
